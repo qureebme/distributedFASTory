@@ -1,0 +1,48 @@
+button {
+    width: 20em;
+}
+
+inputss.sim {
+    width: 18em;
+    height: 4em;
+    border: 2px solid;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+select {
+    border: 1px solid;
+    border-radius: 5px;
+    width: 80px
+}
+
+table {
+    border-radius: 10px;
+}
+
+.station {
+    border-radius: 5px;
+}
+
+.order {
+    border-radius: 5px;
+}
+
+td {
+    padding: .5em;
+}
+
+label {
+    font-family: sans-serif;
+}
+
+h3 {
+    text-align: center
+}
+
+div.big {
+    padding-top: 5%;
+    width: 100%;
+    overflow: hidden;
+    align-content: center
+}

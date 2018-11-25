@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <title>Fastory Portal</title>
+    <link rel="stylesheet" type="text/css" media="all" href="styles.css">
+
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"-->
+</head>
+
+<body>
+    <div id="product form">
+        <h1>Enter Product Requirements</h1>
+
+        <form action="http://127.0.0.1:8000/reqs" method="post">
+            <table border="1">
+                <!--<fieldset>-->
+                <tr>
+                    <td> <label for="keypadT">Keypad Type</label>
+                        <select id="keypadT" name="keypadType">
+            <option selected="selected" value="keypad1">keypad1</option>
+            <option value="keypad2">keypad2</option>
+            <option value="keypad3">keypad3</option>
+        </select></td>
+                    <td><label for="keypadC">Keypad Color</label>
+                        <select id="keypadC" name="keypadColor">
+            <option selected="selected" value="red">red</option>
+            <option value="green">green</option>
+            <option value="blue">blue</option>
+        </select></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="screenT">Screen Type</label>
+                        <select id="screenT" name="screenType">
+            <option selected="selected" value="screen1">screen1</option>
+            <option value="screen2">screen2</option>
+            <option value="screen3">screen3</option>
+        </select></td>
+                    <td><label for="screenC">Screen Color</label>
+                        <select id="screenC" name="screenColor">
+            <option value="red">red</option>
+            <option value="green" selected="selected" >green</option>
+            <option value="blue">blue</option>
+        </select></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="frameT">Frame Type</label>
+                        <select id="frameT" name="frameType">
+            <option selected="selected" value="frame1">frame1</option>
+            <option value="frame2">frame2</option>
+            <option value="frame3">frame3</option>
+        </select></td>
+                    <td><label for="frameC">Frame Color</label>
+                        <select id="frameC" name="frameColor">
+            <option value="red">red</option>
+            <option value="green">green</option>
+            <option value="blue" selected="selected">blue</option>
+        </select></td>
+                </tr>
+
+                <!--</fieldset>-->
+            </table>
+            <table>
+                <tr>
+                    <td><label for="number">Number of Products</label>
+                        <input class="station" type="text" name="numberOfProducts" placeholder="number of products" />
+
+                        <input class="order" type="submit" value="Order" /></td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {});
+    </script>
+    <script>
+        $(document).ready(function() {});
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-
+    Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
